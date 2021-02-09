@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env.
 
-from modules.netbox import get_devices
+from modules.services import get_devices
 
 devices = get_devices()
 
